@@ -1,0 +1,174 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@font-face{
+  font-family: "American Typewriter";
+  src : url(../fonts/AmericanTypewriter.ttc);
+}
+@font-face{
+  font-family: "Oil Can";
+  src : url(../fonts/OilCan.ttf);
+}
+img {
+  max-width: 100%;
+}
+header{
+  height:100px;
+  background-color: #241E1E;
+}
+.logo{
+  background-image: url("../images/headerlogo.png");
+  height:75px;
+  width:500px;
+  float:right;
+  margin-top: 15px;
+  margin-right: 15px;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+.ourstory{
+height:500px;
+background-image: url("../images/backgroundflowers.svg");
+background-size: contain;
+  .prof-pic{
+    background-image: url("../images/frame.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 267px;
+    width:267px;
+    margin: 30px auto;
+    padding-top: 32px;
+
+      .prof-img{
+        background-image: url("../images/AdobeStock_79298891.jpeg");
+        height:200px;
+        width:200px;
+        border-radius: 200px;
+        margin: 0px auto;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display:block;
+      }
+
+  }
+  span{
+    font-family: "American Typewriter";
+    margin-top: 25px;
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+
+  }
+}
+.border-img{
+height:145px;
+background-image: url("../images/borderflower.svg");
+background-repeat: repeat-x;
+}
+.splash-img{
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: solid 15px white;
+
+}
+.topleft-img{
+  background-image: url("../images/photo-1455853659719-4b521eebc76d.jpeg");
+  height:350px;
+  border-right: solid 7px white;
+
+}
+
+.topbottom-img{
+  background-image: url("../images/unsplash_524010c76b52a_1.jpeg");
+  height:350px;
+  border-right: solid 7px white;
+
+}
+
+.topright-img{
+  background-image: url("../images/photo-1454334281609-87a89762912c.jpeg");
+  height:700px;
+  border-left: solid 7px white;
+}
+
+.order-row{
+  height:500px;
+  background-image: url("../images/lowerbackgroundflowers.svg");
+  background-size: contain;
+  padding-top: 80px;
+  h2{
+    font-family: "Oil Can";
+  }
+  span{
+    font-family: "American Typewriter";
+  }
+}
+.orderbutton{
+  height:61px;
+  width:100%;
+  background-color: #241E1E;
+  border-radius: 15px;
+  text-align: center;
+  margin-right: 0px;
+  margin-top: 20px;
+  padding: 10px 0px 0px 0px;
+  span{
+    font-family: "Oil Can";
+    color:white;
+    font-size: 25px;
+  }
+}
+.orderbutton:hover{
+  background-color: #93649C;
+
+}
+.descrip{
+  text-align: center;
+  img{
+    margin:40px auto 40px auto;
+    display: block;
+  }
+}
+.hours{
+  text-align: center;
+  img{
+    margin:0 auto;
+    display: block;
+  }
+}
+.contact-info{
+  text-align: center;
+  img{
+    margin:10px auto 27px auto;
+    display: block;
+  }
+}
+.bottom-img-1{
+  height: 393px;
+  background-image: url("../images/photo-1423001474131-3a304c588136.jpeg");
+  border-right: solid 7px white;
+
+}
+.bottom-img-2{
+  height: 393px;
+  background-image: url("../images/fPuLkQNXRUKI6HQ2cMPf_IMG_4761.jpg");
+  border-left: solid 7px white;
+}
+footer{
+  height:100px;
+  background-color: #241E1E;
+
+}
