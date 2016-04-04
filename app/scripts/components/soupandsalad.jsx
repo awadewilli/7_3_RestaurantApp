@@ -9,9 +9,11 @@ var soupAndSalad= React.createClass({
   mixins: [Backbone.React.Component.mixin],
 
   render: function(){
+    console.log('soup is working');
+
   var catItems = this.props.collection.map(function(model){
     return(
-      <div>
+      <div key={model.get('item')}>
         <li>
           <span>{model.get('item')}</span>
           <span>{model.get('price')}</span>

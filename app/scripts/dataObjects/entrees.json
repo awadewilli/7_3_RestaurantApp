@@ -1,9 +1,9 @@
 [
-{"item":"mussamun curry","price":1095,"category":"entree","description":"Peanut Havored Mussamun curry paste in cream of coconut with white potato, sweet potato and onion topped with cashew nut" },
-{"item":"yellow curry","price":1095,"category":"entree", "description":"Thai yellow curry cooked in cream of coconut with potato, sweet potato, pineapple and onion."},
-{"item":"green curry","price":1095,"category":"entree", "description":"Sweet & Spicy green curry paste in cream of coconut with sweet basil, bamboo shoot, zucchini, green pea, snow pea, baby corn and eggplant."},
-{"item":"panang salmon","price":1595,"category":"entree", "description":"Grilled salmon topped with Panang curry sauce with baby corn, carrot, zucchini, snow pea, and broccoli."},
-{"item":"three-season snapper","price":1595,"category":"entree", "description":"Filet snapper deep-fried topped with special three-season sauce with vegetables."},
-{"item":"garlic squid","price":1395,"category":"entree", "description":"Calamari stir-fried in delicious garlic n pepper sauce with broccoli, carrot, zucchini, onion, snow pea, baby corn, and cilantro."},
-{"item":"pad thai","price":1095,"category":"entree", "description":"Classic stir-fried rice noodle with egg, green onion, bean sprout and side of crush peanut and lime in special Pad Thai sauce."}
+{"item":"mussamun curry","price":10.95,"category":"entree","description":"Peanut Havored Mussamun curry paste in cream of coconut with white potato, sweet potato and onion topped with cashew nut" },
+{"item":"yellow curry","price":10.95,"category":"entree", "description":"Thai yellow curry cooked in cream of coconut with potato, sweet potato, pineapple and onion."},
+{"item":"green curry","price":10.95,"category":"entree", "description":"Sweet & Spicy green curry paste in cream of coconut with sweet basil, bamboo shoot, zucchini, green pea, snow pea, baby corn and eggplant."},
+{"item":"panang salmon","price":15.95,"category":"entree", "description":"Grilled salmon topped with Panang curry sauce with baby corn, carrot, zucchini, snow pea, and broccoli."},
+{"item":"three-season snapper","price":15.95,"category":"entree", "description":"Filet snapper deep-fried topped with special three-season sauce with vegetables."},
+{"item":"garlic squid","price":13.95,"category":"entree", "description":"Calamari stir-fried in delicious garlic n pepper sauce with broccoli, carrot, zucchini, onion, snow pea, baby corn, and cilantro."},
+{"item":"pad thai","price":10.95,"category":"entree", "description":"Classic stir-fried rice noodle with egg, green onion, bean sprout and side of crush peanut and lime in special Pad Thai sauce."}
 ];

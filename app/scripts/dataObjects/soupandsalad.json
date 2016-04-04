@@ -1,7 +1,20 @@
 [
-{"item":"tom-ka-gai","price":450, "category":"sns", "description":"A combination of chicken,lemon grass,lime juice,cilantro,red onion,and mushroom in coconut milk blended with chicken broth."},
-{"item":"tom-yum goong","price":595, "category":"sns", "description":"Thai spicy shrimp soup with lemon grass, lime juice, chili paste, cilantro, red onion and mushroom."},
-{"item":"spicy shrimp salad","price":1095, "category":"sns", "description":"Cooked shrimp tossed with lemon grass, chili paste, lime juice, red onion, cucumber, tomato, cilantro,and mixed greens."},
-{"item":"house salad","price":450, "category":"sns", "description":"Mixed greens, cucumber, tomato, red onion, bean sprout topped with fried tofu served with home-made Thai peanut dressing."},
-{"item":"beef salad","price":895, "category":"sns", "description":"Spicy beef salad in combination with charbroiled beef with chili paste, chili powder, cucumber, onion, tomato, cilantro, and mixed greens."}
+{ "item": "tom-ka-gai",
+  "price": 4.50,
+  "description": "A combination of chicken,lemon grass,lime juice,cilantro,red onion,and mushroom in coconut milk blended with chicken broth."
+}, {
+  "item": "tom-yum goong",
+  "price": 5.95,
+  "description": "Thai spicy shrimp soup with lemon grass, lime juice, chili paste, cilantro, red onion and mushroom."
+},{
+  "item":"spicy shrimp salad",
+  "price":10.95, "category":"sns",
+  "description":"Cooked shrimp tossed with lemon grass, chili paste, lime juice, red onion, cucumber, tomato, cilantro,and mixed greens."
+},{
+  "item":"house salad","price":4.50,
+  "description":"Mixed greens, cucumber, tomato, red onion, bean sprout topped with fried tofu served with home-made Thai peanut dressing."
+},{
+  "item":"beef salad","price":8.95,
+  "description":"Spicy beef salad in combination with charbroiled beef with chili paste, chili powder, cucumber, onion, tomato, cilantro, and mixed greens."
+}
 ]
