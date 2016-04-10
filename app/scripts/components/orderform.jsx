@@ -52,11 +52,20 @@ addItem: function(model, e){
   console.log(cart);
 
 },
+placeOrder: function(e){
+  e.preventDefault();
+  var finalCart = cart.toJSON();
+  console.log(finalCart);
+  cart.create(finalCart);
+  alert('Your Order Was Placed Successfully');
+
+},
 render: function(){
   return(
     <div>
       <MenuItems menu={menu} addItem={this.addItem} />
       <Cart order={cart} />
+      <button type="button btn btn-primary" onClick={this.placeOrder}> Place Your Order</button>
     </div>
   );
 }
