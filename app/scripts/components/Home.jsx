@@ -10,16 +10,12 @@ var orderButton= React.createClass({
 handleClick:function(e){
   e.preventDefault()
   Backbone.history.navigate('order',{trigger:true})
+  window.scrollTo(0, 0);
 },
 render:function(){
 
 return(
 <div>
-  <header className="row">
-    <div className="col-md-9 col-md-offset-3">
-      <div className="logo"></div>
-    </div>
-  </header>
   <div className="row ourstory">
     <div className="col-md-8 col-md-offset-2">
       <div className="top-image">

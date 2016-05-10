@@ -58,14 +58,15 @@ placeOrder: function(e){
   console.log(finalCart);
   cart.create(finalCart);
   alert('Your Order Was Placed Successfully');
+  Backbone.history.navigate('',{trigger:true});
+
 
 },
 render: function(){
   return(
     <div>
       <MenuItems menu={menu} addItem={this.addItem} />
-      <Cart order={cart} />
-      <button type="button btn btn-primary" onClick={this.placeOrder}> Place Your Order</button>
+      <Cart order={cart} placeOrder={this.placeOrder} />
     </div>
   );
 }
@@ -122,9 +123,13 @@ var Cart= React.createClass({
 
     return(
       <div className="col-md-5">
-      {orderItems}
-      <div id="order-total">
-        <span>{total}</span>
+      <h3 className="cart-name">Your Order</h3>
+      <div className="cart">
+        {orderItems}
+        <div id="order-total">
+          <span>Total Price:{total.toFixed(2)}</span>
+        </div>
+        <button type="button" className="btn btn-primary" onClick={this.props.placeOrder}> Place Your Order</button>
       </div>
     </div>
     );

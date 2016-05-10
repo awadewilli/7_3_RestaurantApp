@@ -20,11 +20,11 @@ var MenuItem = React.createClass({
     return (
 
       <div key={model.get('item')}>
-        <li>
-          <span>{model.get('item')}</span>
-          <span>{model.get('price')}</span>
-          <button onClick={this.props.addItem.bind(self, model)}>Add</button>
-          <p></p>
+        <li className="menu-item">
+          <span className="item">{model.get('item')}</span>
+          <span className="price">{model.get('price')}</span>
+          <p>{model.get('description')}</p>
+          <button className="btn btn-primary" onClick={this.props.addItem.bind(self, model)}>Add</button>
         </li>
       </div>
     );
@@ -45,7 +45,7 @@ var MenuCategory= React.createClass({
 
     return(
       <ul>
-        <h3>{this.props.title}</h3>
+        <h3 className="cat-name">{this.props.title}</h3>
         {catItems}
       </ul>
     )
