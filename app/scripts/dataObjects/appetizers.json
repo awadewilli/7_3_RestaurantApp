@@ -1,7 +1,7 @@
 [
-{"item":"Spring Rolls","price":4.500, "category":"appetizers"},
-{"item":"Fried Tofu","price":5.95, "category":"appetizers"},
-{"item":"Fried Calamari","price":5.95, "category":"appetizers"},
-{"item":"Fish Cakes","price":6.75, "category":"appetizers"},
-{"item":"Steamed Dumplings","price":5.50, "category":"appetizers"}
+{"item":"Spring Rolls","price":4.500, "category":"appetizers","description":"Egg roll wrapper stuffed with egg roll fillings (no meat). Served with sweet and sour sauce"},
+{"item":"Fried Tofu","price":5.95, "category":"appetizers","description":"Special seasoned tofu, deep-fried served with Thai sweet chili sauce with crush peanut"},
+{"item":"Fried Calamari","price":5.95, "category":"appetizers","description":"Special battered calamari with special seasoning and served with Thai sweet chili sauce"},
+{"item":"Fish Cakes","price":6.75, "category":"appetizers","description":"Combination of fish filet mixed with special curry paste, spices and green bean, deep-fried served with Thai sweet chili sauce with crush peanuts and cucumber salad."},
+{"item":"Steamed Dumplings","price":5.50, "category":"appetizers","description":"Thai-style dumpling stuffed with minced pork, shrimp and onion served with Sweet garlic/ginger sauce"}
 ];

@@ -8,15 +8,10 @@ require('backbone-react-component');
 var MenuItem = React.createClass({
   mixins:[Backbone.React.Component.mixin],
 
-  addItem: function(e){
-    e.preventDefault();
-    console.log(this.props.model.get('price'));
-
-
-  },
   render: function(){
     var model = this.props.model;
     var self = this;
+    console.log(self);
     return (
 
       <div key={model.get('item')}>
@@ -24,7 +19,7 @@ var MenuItem = React.createClass({
           <span className="item">{model.get('item')}</span>
           <span className="price">{model.get('price')}</span>
           <p>{model.get('description')}</p>
-          <button className="btn btn-primary" onClick={this.props.addItem.bind(self, model)}>Add</button>
+          <button className="btn btn-primary" onClick={this.props.addItem.bind(this,model)}>Add</button>
         </li>
       </div>
     );
@@ -50,11 +45,6 @@ var MenuCategory= React.createClass({
       </ul>
     )
   },
-
-  addItem: function()
-  {
-
-  }
   });
 
 module.exports = MenuCategory;

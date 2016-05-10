@@ -96,7 +96,7 @@ var OrderItem = React.createClass({
     return (
       <div id="order-items" className="row">
           <div className="col-xs-6">
-            {this.props.model.get('item')}
+          <span className="cart-item">{this.props.model.get('item')}</span>
           </div>
           <div className="col-xs-6">
             {this.props.model.get('price')}
