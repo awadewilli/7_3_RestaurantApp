@@ -5947,4 +5947,13 @@ footer {
   position: fixed;
   top: 130px; }
 
+ul {
+  padding-left: 0px; }
+
+.cart-item {
+  font-family: "OilCan";
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase; }
+
 /*# sourceMappingURL=app.css.map */
