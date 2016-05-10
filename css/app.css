@@ -5902,4 +5902,49 @@ header {
 footer {
   height: 100px;
   background-color: #241E1E; }
+
+.cart {
+  position: fixed;
+  width: 40%;
+  top: 150px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px 0px; }
+
+.menu-item {
+  list-style: none;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px 0px; }
+  .menu-item .item {
+    font-family: "OilCan";
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .menu-item .price {
+    margin-left: 15px;
+    color: #241E1E; }
+  .menu-item p {
+    font-family: "American Typewriter"; }
+  .menu-item button {
+    display: inline-block; }
+
+.cat-name {
+  font-family: "OilCan";
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #93649C;
+  margin-bottom: 0px; }
+
+.cart-name {
+  font-family: "OilCan";
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #93649C;
+  margin-top: 5px;
+  position: fixed;
+  top: 130px; }
+
 /*# sourceMappingURL=app.css.map */
