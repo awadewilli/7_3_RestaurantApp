@@ -45,14 +45,14 @@ return(
   <div className="row order-row">
     <div className="col-md-10 col-md-offset-1">
       <div className="row">
-        <div className="col-md-4 descrip">
+        <div className="col-md-4 col-sm-4 col-xs-12 descrip">
         <div>  <img src="./images/bowl.svg"/> </div>
         <h2>Join us for Dinner</h2>
           <p>We invite you to celebrate refined Thai cuisine and an
             invigorating dining experience in the heart of Greenville SC.
           </p>
         </div>
-        <div className="col-md-4 hours">
+        <div className="col-md-4 col-sm-4 col-xs-12 hours">
           <div><img src="./images/utensils.svg"/></div>
           <h2>Hours</h2>
           <p>
@@ -60,15 +60,15 @@ return(
             <span>M-Sat</span>
           </p>
         </div>
-        <div className="col-md-4 contact-info">
+        <div className="col-md-4 col-sm-4 col-xs-12 contact-info">
         <div>  <img src="./images/leaf.svg"/> </div>
           <h2>Contact Us</h2>
-          <span>864-8675-309</span>
+          <span className="phone">864-8675-309</span>
           <span>CustomerServicei@MajesticThai.com</span>
         </div>
       </div>
       <div className="row">
-        <div className="col-md-6 col-md-offset-3" id="orderbutton">
+        <div className="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3" id="orderbutton">
           <button className="orderbutton" onClick={this.handleClick}>
           <span> Place Your Order Online</span>
           </button>
@@ -76,7 +76,7 @@ return(
       </div>
     </div>
   </div>
-  <div className="row">
+  <div className="row bottom-pic">
     <div className="col-md-6 splash-img bottom-img-1"></div>
     <div className="col-md-6 splash-img bottom-img-2"></div>
   </div>

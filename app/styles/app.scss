@@ -20,6 +20,7 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
   font-family: "Oil Can";
   src : url(../fonts/OilCan.ttf);
 }
+
 img {
   max-width: 100%;
 }
@@ -156,6 +157,9 @@ background-repeat: repeat-x;
     display: block;
   }
 }
+.phone{
+  display: block;
+}
 .bottom-img-1{
   height: 393px;
   background-image: url("../images/photo-1423001474131-3a304c588136.jpeg");
@@ -228,4 +232,23 @@ ul{
   font-size: 15px;
   font-weight: bold;
   text-transform: uppercase;
+}
+.bottom-pic{
+
+}
+@media(max-width:767px){
+  .order-row{
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+  }
+  .bottom-img-1{
+    display: none;
+    position: static;
+  }
+  .bottom-img-2{
+    display: none;
+  }
+  .orderbutton span{
+    font-size: 20px !important;
+  }
 }
